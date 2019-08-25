@@ -1,5 +1,7 @@
 source .vimrc.keymap
 
+set clipboard=unnamed
+
 nnoremap ,e :action SearchEverywhere<CR>
 nnoremap ,g :action FindInPath<CR>
 nnoremap ,s :action FileStructurePopup<CR>
@@ -27,5 +29,6 @@ nnoremap ch :action CallHierarchy<CR>
 nnoremap th :action TypeHierarchy<CR>
 nnoremap mh :action MethodHierarchy<CR>
 
+nnoremap co :action $Copy<CR>
 nnoremap cr :action CopyReference<CR>
 nnoremap cp :action CopyPaths<CR>
