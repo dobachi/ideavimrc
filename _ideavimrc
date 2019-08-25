@@ -26,3 +26,6 @@ vnoremap ,a :action GotoAction<CR>
 nnoremap ch :action CallHierarchy<CR>
 nnoremap th :action TypeHierarchy<CR>
 nnoremap mh :action MethodHierarchy<CR>
+
+nnoremap cr :action CopyReference<CR>
+nnoremap cp :action CopyPaths<CR>
